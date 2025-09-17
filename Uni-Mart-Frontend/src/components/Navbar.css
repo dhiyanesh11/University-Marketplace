@@ -5,6 +5,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -27,6 +33,7 @@
 .nav-links li a:hover {
   color: #a8dadc;
 }
+
 .logout-btn {
   background: none;
   border: none;
@@ -40,6 +47,7 @@
 .logout-btn:hover {
   text-decoration: underline;
 }
+
 .nav-links a {
   color: white;
   text-decoration: none;

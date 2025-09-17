@@ -1,7 +1,10 @@
 .sell-page-container {
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  align-items: flex-start;
+   /* This creates space for the navbar */
+  padding-left: 2rem;
+  padding-right: 2rem;
   background-color: #f0f2f5;
   min-height: 100vh;
 }
@@ -13,6 +16,7 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
   width: 100%;
   max-width: 500px;
+  padding-top: 10rem;
 }
 
 .sell-card h2 {
@@ -23,9 +27,8 @@
 
 .sell-form {
   display: flex;
-  
   flex-direction: column;
-   width: 100%;         
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -68,13 +71,16 @@
 .sell-form button:hover {
   background-color: #3578d6;
 }
-.roommates-container, .sell-page-container {
+
+.roommates-container,
+.sell-page-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start; 
+  align-items: flex-start;
   padding: 2rem;
   background-color: #f0f2f5;
 }
+
 .sell-form select {
   padding: 0.7rem;
   border: 1px solid #ccc;
@@ -84,7 +90,7 @@
   width: 100%;
   background-color: #fff;
   color: #333;
-  appearance: none; /* removes default arrow in some browsers */
+  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
